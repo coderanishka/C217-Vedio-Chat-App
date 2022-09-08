@@ -95,7 +95,7 @@ $(function () {
             $('#stop_video').html(html)
         } else{
             myStream.getVideoTracks()[0].enabled = true
-            html = `<i class="fas fa-video-camera"></i>`
+            html = `<i class="fa fa-video-camera"></i>`
             $('#stop_video').toggleClass('background_red')
             $('#stop_video').html(html)
         }
